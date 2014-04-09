@@ -1,4 +1,4 @@
-helloWorld
+Empty Truck Co. Splashpage
 ==========
 
-This is a test
+#ghostruck
