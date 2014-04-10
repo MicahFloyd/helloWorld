@@ -34,12 +34,12 @@ img.bg {
 .inputBox{
   font-style: italic;
   
-  width: 359px; 
-  height: 57px;
+  width: 375px; 
+  height: 56px;
 }
 
 .inputButton{
   position: relative; 
   left: 380px; 
-  bottom: 60px;
+  bottom: 61px;
 }
