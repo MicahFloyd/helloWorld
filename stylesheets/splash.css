@@ -32,15 +32,14 @@ img.bg {
 }
 
 .inputBox{
-  font-size: 14px;
   font-style: italic;
-  /*padding-left: 20px;*/
-  width: 380px; 
-  height: 60px;
+  padding-left: 20px;
+  width: 359px; 
+  height: 57px;
 }
 
 .inputButton{
   position: relative; 
-  left: 381px; 
-  bottom: 61px;
+  left: 380px; 
+  bottom: 60px;
 }
