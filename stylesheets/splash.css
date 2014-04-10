@@ -35,4 +35,12 @@ img.bg {
   font-size: 14px;
   font-style: italic;
   padding-left: 20px;
+  width: 380px; 
+  height: 60px;
+}
+
+.inputButton{
+  position: relative; 
+  left: 381px; 
+  bottom: 61px;
 }
