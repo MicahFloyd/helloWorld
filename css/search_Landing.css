@@ -1,0 +1,152 @@
+.learn_More{
+	padding-left:60px;
+}
+
+.mySmallFooter{
+	background-color:#000;
+	margin-top:115px;
+}
+
+.myFooter{
+	background-color: #000;
+	padding-top:15px;
+	height: 177px;
+}
+
+.gtLogo{
+	margin-top: 18px;
+}
+
+.gtHeading{
+	background-color: #000;
+	height: 100px;
+	margin-bottom: 33px;
+}
+.GPlay{
+	margin-top: 19px;
+	margin-left: 63px;
+}
+
+.button-orange, .button-orange:hover, .button-orange.focus{
+	background-color: #d25300;
+}
+
+body {background:#000 url("GT_Landing_bg.png") no-repeat center;}
+.intro {height:385px;}
+.show-for-small-only .intro {height:auto;position:relative}
+.show-for-small-only .intro h1 {margin-top:80px;margin-bottom:0;line-height:1em;position:relative}
+.show-for-small-only .intro h2 {margin-bottom:30px}
+.show-for-small-only .intro img {margin-top:-80px}
+.show-for-small-only .intro .button {display:block;width:50%;margin:auto;}
+.intro h1 {color:#fff;margin:200px 0 10px 0;font-size:36px}
+.intro h2 {color:#fff;font-size:18px;margin-bottom:40px}
+.intro em {display:block;font-style:normal;color:#fff;}
+.supportedby {background-color:#333;width:100%}
+.row-full-width {width:100%}
+
+.transition {transition: all .2s linear;-webkit-transition: all .2s linear;-moz-transition: all .2s linear;-o-transition: all .2s linear;}
+.transition-slow {transition: all .5s linear;-webkit-transition: all .5s linear;-moz-transition: all .5s linear;-o-transition: all .5s linear;}
+
+nav.introcleared {background:rgba(0,0,0,.85);}
+.nav {margin-top:15px;}
+.nav .button {border:none;margin-bottom:10px;margin-right:10px;padding:13px 30px}
+.top-bar .logo {height:auto;margin:10px 0 0 10px}
+
+section.whitebg {background-color:#fff;color:#333}
+section.greenbg {background-color:#2dcc70}
+section.greenbg h2 {color:#fff}
+section.greenbg p, section.greenbg h3 {color:#333}
+section.graybg, dl.expanding a {background-color:#333;color:#fff}
+section.graybg h2 {color:#2dcc70}
+section.graybg dl {border-bottom:1px solid #444}
+section.graybg dt {font-size:18px;font-weight:normal;border-top:1px solid #444;padding:10px 0;}
+section.graybg dt a {display:block}
+section.graybg dd {color:#999}
+
+dl.expanding dd {display:none}
+dl.expanding dd.active {display:block;
+-webkit-animation: highlight 1s ease;  
+-moz-animation: highlight 1s ease;
+-o-animation: highlight 1s ease;
+animation:highlight 1s ease;
+}
+@keyframes highlight {
+  0% {transform:translateX(10px);opacity:0}
+  100% {transform:translateX(0px);opacity:1}
+}
+@-o-keyframes highlight {
+  0% {-o-transform:translateX(10px);opacity:0}
+  100% {-o-transform:translateX(0px);opacity:1}
+}
+@-webkit-keyframes highlight {
+  0% {-webkit-transform:translateX(10px);opacity:0}
+  100% {-webkit-transform:translateX(0px);opacity:1}
+}
+@-moz-keyframes highlight {
+  0% {-moz-transform:translateX(10px);opacity:0}
+  100% {-moz-transform:translateX(0px);opacity:1}
+} 
+
+section h2 {margin:90px 0 30px 0;}
+h3 {font-size:18px} 
+p {font-size:14px;color:#777}
+section.whitebg h2 {color:#2dcc70;}
+.center {text-align:center}
+.extramargin {margin:40px 0 80px 0}
+
+.howitworks {padding-bottom:60px}
+.howitworks i {margin-bottom:10px;}
+
+.icon {background:url(img/sprite1.1.png) no-repeat;display:inline-block}
+.icon-photo {background-position: 0 -80px;height:100px;width:100px}
+.icon-search {background-position: -220px -80px;height:100px;width:100px}
+.icon-glass {background-position: -110px -80px;height:100px;width:100px}
+.icon-facebook {background-position: 0 -40px;height:32px;width:32px}
+.icon-twitter {background-position: -40px -40px;height:32px;width:32px}
+.icon-youtube {background-position: -80px -40px;height:32px;width:32px}
+.icon-instagram {background-position: -120px -40px;height:32px;width:32px}
+
+.button-gray {background-color:#333}
+.button-gray:hover, .button-gray:focus {background-color:#444}
+.button-transparent {background-color:transparent}
+.button-transparent:hover, .button-transparent:focus {background-color:rgba(255,255,255,.15);}
+.button-green {background-color:#27ad5f}
+.button-green:hover, .button-green:focus {background-color:#009347}
+
+.app-link-bar {text-align:center;padding:10px;background-color:#333}
+.show-for-small-only .app-link-bar img {width:120px}
+.app-link-bar a:first-child {margin-right:20px}
+
+footer {padding:40px 0}
+footer p {color:#2dcc70;}
+footer p, footer a {font-size:12px}
+footer a {color:#fff}
+footer a:hover {color:#ccc}
+footer .inline-list > li {margin-left:10px}
+.payment-badges {background:url(img/sprite1.1.png) no-repeat;height:30px;width:205px}
+.location-badge {position:absolute;right:-50px;bottom:20px;width:100px}
+
+@media only screen and (max-width: 40em) {
+	.f-topbar-fixed {padding-top:0}
+	body {font-size:100px;}
+	button.large, .button.large {
+    	font-size: 0.8rem;
+    	padding: 1.125rem 2.25rem 1.188rem;
+	}
+	.learn_More{
+		padding-left:15px;
+	}
+	section, footer {text-align:center}
+	footer .inline-list > li {float:none;display:inline-block}
+	footer .payment-badges {margin:auto;margin-bottom:10px}
+	section h2 {padding:0 2.5rem}
+	section h2 {margin:40px 0 10px 0;line-height:1em}
+	section h3 {font-size:18px}
+	section dl {text-align:left}
+	.top-bar .logo {height:28px}
+	.mobile-margin-bottom {margin-bottom:40px}
+	nav.fixed {position:fixed;background-color:#2dcc70;}
+	.top-bar.expanded .title-area {background-color:#2dcc70;}
+	nav.fixed a {text-align:left}
+	.intro {background-image:none;padding:0}
+}
